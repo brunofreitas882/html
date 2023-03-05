@@ -7,6 +7,7 @@
 
 </head>
 <body>
+    <main>
     <p>
         <b>HTML </b>(abreviação para a <a href="https://pt.wikipedia.org/wiki/L%C3%ADngua_inglesa">expressão inglesa</a> 
         <i>
@@ -43,6 +44,55 @@
     <p>
         Em janeiro de <a href="https://pt.wikipedia.org/wiki/2008">2008</a> o W3C publicou a especificação do <a href="https://pt.wikipedia.org/wiki/HTML5">HTML5</a> como <i>Working Draft</i>. Apesar de sua sintaxe ser semelhante à de <a href="https://pt.wikipedia.org/wiki/SGML">SGML</a>, o HTML5 abandonou qualquer tentativa de ser uma aplicação SGML e definiu explicitamente sua própria serialização "html", além de uma alternativa baseada em <a href="https://pt.wikipedia.org/wiki/XML">XML</a>, o XHTML5.<a href="https://pt.wikipedia.org/wiki/HTML#cite_note-5">[5]</a>
     </p>
+        <section>
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col" style="width: 250px
+                    ;">Versão</th>
+                        <th scope="col" style="width: 250px
+                        ;">Ano</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td>1991</td>
+                        </tr>
+                        <tr>
+                            <td>HTML 2.0</td>
+                            <td>1995</td>
+                        </tr>
+                        <tr>
+                            <td>HTNL 3.2</td>
+                            <td>1997</td>
+                        </tr>   
+                        <tr>
+                            <td>HTML 4.01</td>
+                            <td>1999</td>
+                        </tr>
+                        <tr>
+                            <td>XHTML</td>
+                            <td>2000</td>
+                        </tr>
+                        <tr>
+                            <td>HTML 5</td>
+                            <td>2014</td>
+                        </tr>
+                        <tr>
+                            <td>HTML 5.1</td>
+                            <td>2016 e 2017(2ª ed.)</td>
+                        </tr>
+                        <tr>
+                            <td>HTML 5.2</td>
+                            <td>2017</td>
+                        </tr>
+                </tbody>
+            </table>
+        </section>
     
+    <h3>Marcas(tags)</h3><hr>
+    <p>Todo documento HTML possui marcadores (do inglês: tags), palavras entre parênteses angulares (<a href="https://pt.wikipedia.org/wiki/Chevron_(tipografia)">chevron</a> chevron)(&#60; e &#62;); esses marcadores são os comandos de formatação da linguagem. Um elemento é formado por um nome de marcador (tag), atributos, valores e filhos (que podem ser outros elementos ou texto). Os atributos modificam os resultados padrões dos elementos e os valores caracterizam essa mudança. Exemplo de um elemento simples (não possui filhos):</p>
+    </main>    
 </body>
-</html>
+</html>     
