@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <title>Hello</title>
+ <link rel="stylesheet" href="/CSS/my_styles.css">
+</head>
+
+<body>
+<h1>Hello CSS</h1>
+<p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda placeat unde reiciendis illum commodi deleniti inventore dolorem saepe officia aliquam. Assumenda debitis fuga quae dolorem delectus animi ratione temporibus inventore?
+</p>    
+</body>
+
+</html>
