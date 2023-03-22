@@ -1,0 +1,79 @@
+css
+
+
+
+body{
+    font-family: 'Open Sans', 'sans-serif';
+}
+h1{
+    text-align: center;
+}
+.container{
+    display: flex;
+    width: auto;
+    height: 500px;
+    background-color: #003049;
+    margin: 0 auto;
+    border: 5px solid #003049;
+    flex-direction: row;
+    flex-wrap: wrap ;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+}
+.container div {
+    height: 200px;
+    width: 200px;
+}
+.big{
+    font-size: 3em;
+}
+.container div:nth-child(5) {
+    height: 400px;
+    font-size: 10em;
+    border: solid;
+    border-radius: 20px;
+    border-color: chartreuse;
+}
+.container div:nth-child(6):hover {
+    background-color: darkkhaki;
+    border: solid;
+    border-color: antiquewhite;
+    color: chartreuse;
+    font-size: 10em;
+    height: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/flexbox/css/app_.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Vamos brincar com o flex-box</h1>
+
+    <section class="container">
+        <div style="background-color: #80ffdb;">01</div>
+        <div style="background-color: #64dfdf;">02</div>
+        <div style="background-color: #48bfe3;" class="big">03</div>
+        <div style="background-color: #5390d9;">04</div>
+        <div style="background-color: #5390d9;">05</div>
+        <div style="background-color: #6930c3;">06</div>
+    </section>
+</body>
+</html>
